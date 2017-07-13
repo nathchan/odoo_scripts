@@ -1,7 +1,7 @@
 echo "This program creates 3 usefull shortcuts for Odoo admins"
 
 echo "Creates 'ol' that is used to show logs from Odoo"
-echo "tail -f /var/log/odoo/logs.log" > /bin/ol
+echo "tail -f /var/log/odoo/odoo-server.log" > /bin/ol
 chmod +x /bin/ol
 
 echo "Creates 'or' that is used to restart Odoo"
